@@ -122,5 +122,11 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
+    // 'providers'=>[
+    //     \TeamTNT\Scout\TNTSearchScoutServiceProvider::class,
+    //     \Laravel\Scout\ScoutServiceProvider::class,
+
+    // ]
+
 
 ];
