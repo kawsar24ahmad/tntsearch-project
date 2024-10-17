@@ -52,11 +52,11 @@ async function getData() {
                             </div>
                         </form>
                         <ul v-if="results.length">
-                            <li v-for="user in results" :key="user.id">
-                                {{ user.id }} : {{ user.name }} :  {{ user.email }}
+                            <li class="text-green-600" v-for="user in results" :key="user.id">
+                                {{ user.id }} : <strong>{{ user.name }}</strong> :  {{ user.email }}
                             </li>
                         </ul>
-                        <p v-else > No Result is found! </p>
+                        <p v-else class="text-red-700" > No Result is found! </p>
 
 
                         <div class="mt-16">
